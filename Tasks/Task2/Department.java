@@ -1,5 +1,6 @@
 // Parent class
-public class Department {
+public class Department 
+{
     protected String name; // Variable declaration with access modifier
     
     public Department(String name) { // Constructor with parameter
