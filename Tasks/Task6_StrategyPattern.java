@@ -37,6 +37,6 @@ class CircleArea implements IStrategy {
     public int calculateArea(int x,int y) {
 
         int radius = x;
-        return (int) (Math.PI * radius * radius);
+        return (int) (3.1416 * radius * radius);
     }
 }
