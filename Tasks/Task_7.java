@@ -45,7 +45,7 @@ class SpecialBehaviorDecorated extends AnimalDecorator
     }
 }
 
-public class All 
+class All 
 {
     public static void main(String[] args) 
     {
