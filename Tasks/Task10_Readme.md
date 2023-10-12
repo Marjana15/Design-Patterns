@@ -1,0 +1,3 @@
+# Observer Pattern
+
+In this scenario, a News Agency acts as a central hub for news distribution, serving two initial subscribers, Subscriber 1 and Subscriber 2. News updates, including new legislation and the weekly weather forecast, are promptly conveyed to both subscribers. Later, Subscriber 1 opts out, no longer receiving updates. Nonetheless, the News Agency continues to effectively disseminate news to its remaining subscribers, ensuring swift information delivery.
