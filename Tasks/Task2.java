@@ -1,5 +1,5 @@
 // Parent class
-public class Department 
+class Department 
 {
     protected String name; // Variable declaration with access modifier
     
@@ -27,5 +27,22 @@ class Student extends Department {
     
     public void enroll(String course) { // Method with parameter
         System.out.println("Student " + studentId + " enrolled in " + course + ".");
+    }
+}
+
+class Main{
+    public static void main(String[] args) 
+    {
+        // Object creation
+        Student student = new Student("Software Engineering", "221-134-020");
+        
+        // Accessing inherited variable
+        student.printName();
+        
+        // Accessing variable of child class
+        student.displayInfo();
+        
+        // Accessing method of child class
+        student.enroll("Software Architecture and Design Pattern");
     }
 }
