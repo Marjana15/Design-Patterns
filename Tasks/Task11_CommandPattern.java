@@ -63,7 +63,8 @@ class FileInvoker {
     }
 }
 
-public class Task11_CommandPattern {
+public class Task11_CommandPattern 
+{
     public static void main(String[] args) {
         FileSystemReceiver receiver = new UnixFileSystemReceiver();
 
